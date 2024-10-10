@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+    background-color: rgb(83, 231, 14);
+}
+main{
+ height:100vh ;
+ display: flex;   
+}
+#lewa,#prawa{
+    flex:1 ;
+}
+#lewa{
+background-color: red;    
+}
+#prawa{
+    background-color: blue;
+}
+#header{
+    width: 200px;
+    height: 300pxpx;
+    padding: 30px;
+}
